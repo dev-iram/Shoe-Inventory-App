@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="shoe"
+            type="com.udacity.shoestore.models.Shoe" />
+    </data>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="10dp"
+        app:cardBackgroundColor="@color/white"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/shoe_name_item_label"
+                android:text="@{shoe.name}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:textSize="@dimen/list_text_size_title"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textAllCaps="true"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:text="CLASSIC SLIP ON SHOES"/>
+
+            <TextView
+                android:id="@+id/company_brand_shoe_item_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:textSize="@dimen/list_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:text="@string/company_brand_label"
+                app:layout_constraintTop_toBottomOf="@+id/shoe_name_item_label"
+                app:layout_constraintStart_toStartOf="@+id/shoe_name_item_label"/>
+
+            <TextView
+                android:id="@+id/company_shoe_item_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@{shoe.company}"
+                android:fontFamily="@font/alata"
+                android:textSize="@dimen/list_text_size"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toTopOf="@+id/company_brand_shoe_item_label"
+                app:layout_constraintStart_toEndOf="@+id/company_brand_shoe_item_label"
+                tools:text="Vans"/>
+
+            <TextView
+                android:id="@+id/size_shoe_item_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/size_label"
+                android:fontFamily="@font/alata"
+                android:textSize="@dimen/list_text_size"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/description_text" />
+
+            <TextView
+                android:id="@+id/size_shoe_item_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@{String.valueOf(shoe.size)}"
+                android:fontFamily="@font/alata"
+                android:textSize="@dimen/list_text_size"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toTopOf="@+id/size_shoe_item_label"
+                app:layout_constraintStart_toEndOf="@+id/size_shoe_item_label"
+                tools:text="8.0"/>
+
+            <TextView
+                android:id="@+id/description_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_label"
+                android:fontFamily="@font/alata"
+                android:textSize="@dimen/list_text_size"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/company_brand_shoe_item_label"
+                app:layout_constraintStart_toStartOf="@+id/company_brand_shoe_item_label" />
+
+            <TextView
+                android:id="@+id/description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{shoe.description}"
+                android:textColor="@color/black"
+                android:fontFamily="@font/alata"
+                android:textSize="@dimen/list_text_size"
+                app:layout_constraintTop_toBottomOf="@+id/description_label"
+                app:layout_constraintStart_toStartOf="@+id/description_label"
+                tools:text="First introduced in 1977, the Vans #98-now known as the Classic Slip-On-instantly became an icon in Southern California. Fast forward to today, and the Classic Slip-On is known worldwide for its comfortable silhouette, easy wearability, and beloved design." />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
+
+

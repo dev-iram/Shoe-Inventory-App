@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Shoe Inventory</string>
+    <string name="shoe_store_title">Shoe Inventory</string>
+    <string name="add_new_shoe">Add New Shoe</string>
+
+    <string name="company_brand">Company/Brand</string>
+    <string name="company_brand_label">Company/Brand:</string>
+
+    <string name="size">Size</string>
+
+    <string name="shoe_name_label">Shoe Name: </string>
+    <string name="shoe_name">Shoe Name </string>
+    <string name="description_label">Description: </string>
+    <string name="description">Description</string>
+    <string name="size_label">Size:</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="shoe_inventory_instructions">Instructions</string>
+    <string name="instructions_subtitle">Storing your shoes has never been simpler!</string>
+    <string name="instructions_text">To add a shoe to your own personal shoe inventory, simply state the name of the shoe, brand, size and a brief description. \nGet shoe storing! </string>
+    <string name="store_your_shoes_now">Store Your Shoes Now!</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="welcome_message_text">Store your shoe inventory with ease.</string>
+    <string name="learn_more_button">Learn More</string>
+    <string name="logout">Logout</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logo">logo</string>
+    <string name="add_to_inventory">Add to Inventory</string>
+    <string name="add_new_shoe_menu">Add New Shoe</string>
+</resources>
