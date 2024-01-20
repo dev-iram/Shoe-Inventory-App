@@ -1,5 +1,6 @@
 # Shoe Store Inventory
-![Shoe Store Inventory](https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/d77aefab-ac83-4e31-9304-47586d2da8c3)
+![shoestoreinventory](https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/113ef031-a317-4c1d-bee4-f2acfdcfbee6)
+
 This is a Shoe Store Inventory Application I created as per specifications in Project 1 as part of Udacity Nanodegree Android Kotlin Developer Course.
 
 
@@ -10,20 +11,23 @@ This is a Shoe Store Inventory Application I created as per specifications in Pr
   &nbsp;&nbsp;&nbsp;&nbsp;✧ Android Studio: IDE Used to create, compile and build application
   
 ## Application Screenshots
-![1 (2)](https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/a289af93-035a-4e48-883f-c5486af5bddc)
-![2 (2)](https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/b6985ed1-853c-46c4-b173-aa221e2cb241)
-
+![1 (2)](https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/f3fdebd6-263d-45b3-811a-b0eb3bd1e8f0)
+![2 (2)](https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/aaa72a1c-5a92-45d9-98ae-d7448a554c55)
 
 
 ## Application Logo
  <div align="center">
-  <image src="https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/29e04acb-cb9a-4ab2-86cc-5034796f1625" width="400" />
+  <image src="https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/28983f0c-8dca-4b9c-ab9c-98a42d7b6539" width="400" />
 </div>
 
 ## Application Demo
  <div align="center">
-  <video src="https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/fe5d9519-7772-422c-96de-ec71ab08faeb" width="400" />
+  <video src="https://github.com/dev-iram/Shoe-Inventory-App/assets/22479692/da9a50f6-db43-4de4-bb94-34d822bee2c7" width="400" />
 </div>
+
+
+
+
 
  ## Assignment Brief
 In this project, students will apply their skills in building layouts and navigation files by building a Shoe Store app. This project will consist of five screens:
