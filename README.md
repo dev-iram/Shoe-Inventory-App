@@ -72,3 +72,27 @@ The shoe listing page will show the list of shoes and show a button for adding a
 ✦	**Shoe Detail Screen** – This screen consists of a ConstraintLayout with labels and inputs for each of the entries - Shoe Name, Company/Brand, Description and Size. There is a button that allows for the new item to be added to the inventory list, or another button to cancel which will wipe all input and return to the previous screen.
 
   This application uses animations for changing screen - when proceeding to the next screen, it will swipe right. 
+
+## Submission Feedback 
+## 2nd Submission - Passed ✅
+### 21st January 2024
+```Congratulations 👏👏👏👏
+WELL DONE, You have successfully fixed all the issues
+You completed this project flawlessly.
+I hope you keep your spirits up and keep working like this.
+We are looking forward to more of your projects
+```
+
+## 1st Submission - Failed ❌
+### 20th January 2024
+```Hi there 
+Your code looks well-structured and neat. You're clearly writing a Kotlin-like code, using all its benefits.
+You kept the app design simple but made it very pleasant.  
+There is a minor issue that you need to fix before finishing this project successfully  
+All the layouts are missing code comments to justify the usage of Linear/ConstraintLayout  
+I have added the feedback to relevant project files as well as to the sections of this  
+feedback that will help you to fix the issues and improve the codebase  
+All the BEST for the next submission 😊 Happy Coding 😊
+```
+
+
