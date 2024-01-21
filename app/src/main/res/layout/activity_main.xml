@@ -8,6 +8,12 @@
             type="com.udacity.shoestore.MainViewModel" />
     </data>
 
+    <!--
+    Used LinearLayout to arrange child views from the parent based on the current design requirements.
+    Using this layout allows for a simple and flexible way to organise elements in the user interface
+    in a linear way which allows for the layout to be structured and clean.
+    -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

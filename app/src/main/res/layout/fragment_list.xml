@@ -9,6 +9,13 @@
             type="com.udacity.shoestore.MainViewModel" />
     </data>
 
+    <!--
+      I used a ConstraintLayout as I wanted to create a responsive/flexible user interface design.
+      Using this layout allows for creating complex layouts, and provides better performance, as well
+      as adapting to different screen sizes. It also allows for constraints to be added which help to
+      define relationships between views, which helps adaptation towards positioning and sizes for differing
+      screens as mentioned. This layout is for the ListFragment.
+     -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/cream"
-            android:padding="10dp">
+            android:padding="@dimen/padding">
 
             <LinearLayout
                 android:id="@+id/shoe_list_view"

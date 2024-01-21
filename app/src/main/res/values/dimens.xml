@@ -4,4 +4,5 @@
     <dimen name="button_margin">20dp</dimen>
     <dimen name="list_text_size_title">18sp</dimen>
     <dimen name="list_text_size">12sp</dimen>
+    <dimen name="padding">10dp</dimen>
 </resources>
